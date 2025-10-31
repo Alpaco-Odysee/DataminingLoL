@@ -1,0 +1,6 @@
+1. Schritt
+Api Aufruf aller Spieler ausführen
+
+2. Schritt
+Parameter richtig setzen und Datensatz richtig speichern
+2_1 Json Datei besichtigen für Datensatz
