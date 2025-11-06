@@ -9,4 +9,12 @@ Parameter richtig setzen und Datensatz richtig speichern
 3. Schritt
 API Aufruf der Match History eines Spielers
 3_1 Json Datei besichtigen für Datensatz
-    Um Die Api aufzurufen gebe ich Parameter ein wie z.B: puuid, startTime und endTime im epoch Format, außerdem kann ich mir bis zu 100 Match ID's ausgeben lassen
+    Um Die Api aufzurufen gebe ich Parameter ein wie z.B: puuid, startTime und endTime im epoch Format
+
+4. Schritt
+
+5. Schritt
+
+API Aufruf auf das jeweilige Spiel eines Spielers
+5_1 Json Datei besichtigen für Datensatz
+    Um Die API aufzurufen gebe ich die Match ID ein

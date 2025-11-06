@@ -5,11 +5,12 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"slices"
 	"time"
 )
 
 const (
-	apiKey         = "RGAPI-36752775-a120-4542-a136-0410d920e962"
+	apiKey         = "RGAPI-266be39c-373c-4c2d-bdd8-c3908b7e7c7a"
 	playerBaseURL  = "https://euw1.api.riotgames.com"
 	historyBaseURL = "https://europe.api.riotgames.com"
 )
@@ -34,7 +35,11 @@ func main() {
 	// if err != nil {
 	// 	fmt.Println(err)
 	// }
-	err := handleGetMatchesFromPlayers()
+	// err := handleGetMatchesFromPlayers()
+	// if err != nil {
+	// 	fmt.Println(err)
+	// }
+	err := handleGetTargetData()
 	if err != nil {
 		fmt.Println(err)
 	}
@@ -112,16 +117,25 @@ func getLeagueEntries(pageNumber int) ([]LeagueEntry, error) {
 	return entries, nil
 }
 
+type GameHistory struct {
+	PuuID           string   `json: "puuid"`
+	MatchhistoryIDs []string `json: "history"`
+}
+
+type FirstBlood struct {
+	Champion string
+	Win      int
+	MaxGames int
+}
+
 func handleGetMatchesFromPlayers() error {
 	puuIDs, err := getAllPlayerPuuIDs()
 	if err != nil {
 		return err
 	}
 
-	// fmt.Println(puuIDs)
-	position := 0
 	totalCalls := 0
-	for {
+	for _, puuID := range puuIDs {
 		if totalCalls%20 == 0 {
 			fmt.Println("waiting 2 seconds")
 			time.Sleep(2 * time.Second)
@@ -131,7 +145,7 @@ func handleGetMatchesFromPlayers() error {
 			time.Sleep(241 * time.Second)
 			totalCalls = 0
 		}
-		url := fmt.Sprintf("%s/lol/match/v5/matches/by-puuid/%s/ids?startTime=%d&endTime=%d&start=%d&count=%d", historyBaseURL, puuIDs[position], start, end, 0, 100)
+		url := fmt.Sprintf("%s/lol/match/v5/matches/by-puuid/%s/ids?startTime=%d&endTime=%d&start=%d&count=%d", historyBaseURL, puuID, start, end, 0, 100)
 
 		req, err := http.NewRequest("GET", url, nil)
 		if err != nil {
@@ -152,18 +166,101 @@ func handleGetMatchesFromPlayers() error {
 			return err
 		}
 
+		gHistory := GameHistory{}
+		gHistory.PuuID = puuID
 		for _, id := range gameHistory {
+			gHistory.MatchhistoryIDs = append(gHistory.MatchhistoryIDs, id)
 			fmt.Println(id)
 		}
 
-		if len(gameHistory) > 90 {
-			fmt.Println("History länger als 90 gefunden")
-			break
-		} else {
-			fmt.Println(position)
-			position++
+		err = addPlayerHistory(gHistory)
+		if err != nil {
+			return err
 		}
 		totalCalls++
+	}
+	return nil
+}
+
+func handleGetTargetData() error {
+	histories, err := getMatchHistoryFromPlayer()
+	if err != nil {
+		return err
+	}
+	var exists []string
+	firstBloodStats := make(map[string]*FirstBlood)
+
+	totalCalls := 0
+	for historyMax, h := range histories {
+		fmt.Printf("PUUID: %s | Matches: %d\n", h.PuuID, len(h.MatchhistoryIDs))
+		for _, match := range h.MatchhistoryIDs {
+			if totalCalls%20 == 0 {
+				fmt.Println("waiting 2 seconds")
+				time.Sleep(2 * time.Second)
+			}
+			if totalCalls == 100 {
+				fmt.Println("waiting 241 seconds")
+				time.Sleep(241 * time.Second)
+				totalCalls = 0
+			}
+			if slices.Contains(exists, match) {
+				continue
+			}
+			url := fmt.Sprintf("%s/lol/match/v5/matches/%s", historyBaseURL, match)
+
+			req, err := http.NewRequest("GET", url, nil)
+			if err != nil {
+				return err
+			}
+			req.Header.Set("X-Riot-Token", apiKey)
+
+			client := &http.Client{}
+			resp, err := client.Do(req)
+			if err != nil {
+				return err
+			}
+			defer resp.Body.Close()
+
+			var matchData map[string]interface{}
+			if err := json.NewDecoder(resp.Body).Decode(&matchData); err != nil {
+				return err
+			}
+			info, ok := matchData["info"].(map[string]interface{})
+			if !ok {
+				return fmt.Errorf("unexpected match structure")
+			}
+			participants, ok := info["participants"].([]interface{})
+			if !ok {
+				return fmt.Errorf("no participants found")
+			}
+
+			for i := range len(participants) {
+				first := participants[i].(map[string]interface{})
+
+				champion, _ := first["championName"].(string)
+				win, _ := first["win"].(bool)
+				firstBlood, _ := first["firstBloodKill"].(bool)
+
+				if firstBlood {
+					stat, exists := firstBloodStats[champion]
+					if !exists {
+						stat = &FirstBlood{Champion: champion}
+						firstBloodStats[champion] = stat
+					}
+					stat.MaxGames++
+					if win {
+						stat.Win++
+					}
+				}
+			}
+			exists = append(exists, match)
+			totalCalls++
+		}
+		fmt.Println("Loop Nr:", historyMax)
+	}
+
+	if err := saveFirstBloodsToDB(firstBloodStats); err != nil {
+		return fmt.Errorf("failed to save first bloods to DB: %v", err)
 	}
 
 	return nil
