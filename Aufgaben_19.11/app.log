@@ -1,0 +1,177 @@
+2025/11/16 13:06:32 App started
+2025/11/16 13:06:32 Saved player data to ../logs/2025-11-16/players.json
+2025/11/16 13:06:32 Successfully saved JSON response to players.json
+2025/11/16 13:06:32 App finished
+2025/11/16 13:20:19 App started
+2025/11/16 13:20:20 Saved player data to ../logs/2025-11-16/players.json
+2025/11/16 13:20:20 Successfully saved JSON response to players.json
+2025/11/16 13:20:20 Starting handleGetMatchesFromPlayers...
+2025/11/16 13:20:20 Found PUUID: HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 13:20:20 Error: no matches found for PUUID HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 13:20:20 App finished
+2025/11/16 13:20:42 App started
+2025/11/16 13:20:42 Saved player data to ../logs/2025-11-16/players.json
+2025/11/16 13:20:42 Successfully saved JSON response to players.json
+2025/11/16 13:20:42 Starting handleGetMatchesFromPlayers...
+2025/11/16 13:20:42 Found PUUID: HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 13:20:42 Error: no matches found for PUUID HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 13:20:42 App finished
+2025/11/16 13:35:16 App started
+2025/11/16 13:35:16 Saved player data to ../logs/2025-11-16/players.json
+2025/11/16 13:35:16 Successfully saved JSON response to players.json
+2025/11/16 13:35:16 Starting handleGetMatchesFromPlayers...
+2025/11/16 13:35:16 Found PUUID: HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 13:35:16 Error: no matches found for PUUID HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 13:35:16 App finished
+2025/11/16 13:37:58 App started
+2025/11/16 13:37:58 Saved player data to ../logs/2025-11-16/players.json
+2025/11/16 13:37:58 Successfully saved JSON response to players.json
+2025/11/16 13:37:58 Starting handleGetMatchesFromPlayers...
+2025/11/16 13:37:58 Found PUUID: HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 13:37:58 Error: no matches found for PUUID HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 13:37:58 App finished
+2025/11/16 13:52:39 App started
+2025/11/16 13:52:39 Saved player data to ../logs/2025-11-16/players.json
+2025/11/16 13:52:39 Successfully saved JSON response to players.json
+2025/11/16 13:52:39 Starting handleGetMatchesFromPlayers...
+2025/11/16 13:52:39 Loaded 205 players
+2025/11/16 13:52:39 waiting 2 seconds
+2025/11/16 13:52:41 Checking PUUID #0: HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 13:52:42 PUUID HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ has no matches. Skipping...
+2025/11/16 13:52:42 Checking PUUID #1: XyqIYoXzbng01WeUpW9Tgh9ECT-MmGsZuAhaEAOaeZJF57-LYrCPA27WotwSfTw2WmJSHFoswhqkLg
+2025/11/16 13:52:42 Found match EUW1_7605433787 for PUUID XyqIYoXzbng01WeUpW9Tgh9ECT-MmGsZuAhaEAOaeZJF57-LYrCPA27WotwSfTw2WmJSHFoswhqkLg
+2025/11/16 13:52:42 Saved match data to ../logs/2025-11-16/match.json
+2025/11/16 13:52:42 Successfully saved JSON response to matches.json
+2025/11/16 13:52:42 App finished
+2025/11/16 13:58:11 App started
+2025/11/16 13:58:11 Saved player data to ../logs/2025-11-16/players.json
+2025/11/16 13:58:11 Successfully saved JSON response to players.json
+2025/11/16 13:58:11 Starting handleGetMatchesFromPlayers...
+2025/11/16 13:58:11 Loaded 205 players
+2025/11/16 13:58:13 Checking PUUID #0: HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 13:58:13 PUUID HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ has no matches. Skipping...
+2025/11/16 13:58:13 Checking PUUID #1: XyqIYoXzbng01WeUpW9Tgh9ECT-MmGsZuAhaEAOaeZJF57-LYrCPA27WotwSfTw2WmJSHFoswhqkLg
+2025/11/16 13:58:13 Found match EUW1_7605433787 for PUUID XyqIYoXzbng01WeUpW9Tgh9ECT-MmGsZuAhaEAOaeZJF57-LYrCPA27WotwSfTw2WmJSHFoswhqkLg
+2025/11/16 13:58:13 Saved match data to ../logs/2025-11-16/match.json
+2025/11/16 13:58:13 Successfully saved JSON response to matches.json
+2025/11/16 13:58:13 App finished
+2025/11/16 14:26:50 App started
+2025/11/16 14:26:51 Saved player data to ../logs/2025-11-16/players.json
+2025/11/16 14:26:51 Successfully saved JSON response to players.json
+2025/11/16 14:26:51 Starting handleGetMatchesFromPlayers...
+2025/11/16 14:26:51 Loaded 205 players
+2025/11/16 14:26:51 waiting 2 seconds
+2025/11/16 14:26:53 Checking PUUID #0: HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 14:26:53 Saved match list (0 entries) to ../logs/2025-11-16/matchList.json
+2025/11/16 14:26:53 PUUID HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ has no matches. Skipping...
+2025/11/16 14:26:53 Checking PUUID #1: XyqIYoXzbng01WeUpW9Tgh9ECT-MmGsZuAhaEAOaeZJF57-LYrCPA27WotwSfTw2WmJSHFoswhqkLg
+2025/11/16 14:26:53 Saved match list (3 entries) to ../logs/2025-11-16/matchList.json
+2025/11/16 14:26:53 Fetching match EUW1_7605433787
+2025/11/16 14:26:53 Saved match data to ../logs/2025-11-16/match.json
+2025/11/16 14:26:53 Successfully saved JSON response to matches.json
+2025/11/16 14:26:53 App finished
+2025/11/16 14:29:13 App started
+2025/11/16 14:29:13 Saved player data to ../logs/2025-11-16/players.json
+2025/11/16 14:29:13 Successfully saved JSON response to players.json
+2025/11/16 14:29:13 Starting handleGetMatchesFromPlayers...
+2025/11/16 14:29:13 Loaded 205 players
+2025/11/16 14:29:15 PUUID HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ has 0 matches
+2025/11/16 14:29:15 PUUID XyqIYoXzbng01WeUpW9Tgh9ECT-MmGsZuAhaEAOaeZJF57-LYrCPA27WotwSfTw2WmJSHFoswhqkLg has 3 matches
+2025/11/16 14:29:15 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:15 PUUID Gb22KsScH2am17wEQgfYeUgECimb2W5vhIJnpyuiYBxXJYqwZqklxu2c4S5Ftw9Fa4yt2pXTyag69A has 0 matches
+2025/11/16 14:29:15 PUUID GfFKIBFzE6VixH4yC4Sibus-7-Hs0emwL8tVr3j0QzppcQDfyh6hbs-zvyfGNO1uuixMmqFF_8a1Jg has 0 matches
+2025/11/16 14:29:16 PUUID _lfA0A9e7PJD9e0IrYpEYXHPNBWpD7u1uytkvbaZyCk1FkkeBk9B42zQXWpscCluTviQR8-t26Zw4A has 2 matches
+2025/11/16 14:29:16 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:16 PUUID Zy-kJYbL8f1Ui3MUnZUAcXWGdubxWxfyxi42aua4SRJKgc5g1qcJNrRjpxntr6_wSMOnCS2ROjA--Q has 0 matches
+2025/11/16 14:29:16 PUUID 2ZORRmxYsHMqeeuV5nP1wTM0PsHkfmfnae4zQ58KE0Q12GR9H9WFNqvcWp2erTsv7P0lqJSRgJp7Xw has 0 matches
+2025/11/16 14:29:16 PUUID 6Z4RJx2_jYCGJrTfKt1DdMJFVKkEaTf5C4y1GR5Hb9nPybzUTMVLTA9rDC6OIKaC9FnmLbYzbGRECg has 0 matches
+2025/11/16 14:29:16 PUUID D4qzhhoRR0TTAvh5AXgCLHlD9-5D0bXiSiw4FNQC_x3tpf3_amKZClgD2caQGkiI8E8J36eUZrNZ8A has 0 matches
+2025/11/16 14:29:16 PUUID WMv_U8dbZk7KyYPMIuW13a14Mkuzx1cLVi_ShabpWe1Q_LvV73Hx68781_6RrU4pPcUhE5DXCLohXw has 0 matches
+2025/11/16 14:29:16 PUUID CdBLzKHRnEJ4gMs6HTv6pFObDJIrFCZ60GX5tMxhWpLDDVMmxPxFIe90w01gJqWcGa1amvOBIRYa1Q has 0 matches
+2025/11/16 14:29:16 PUUID vzZmG7a66CK4i_RB1f4AMZ-jCntXCKs1QPBRxH2doLTM3W03YIg-y6J8nMrWw0r3Rxg05QH33-eYqQ has 0 matches
+2025/11/16 14:29:16 PUUID Fwb6iLvcOIKfy9N-WKhwI5WG8Qg8UfUZof1z0smbOMPCBnY3cwHU7krm3Rq2vV6zrHjwTe6K6c11iw has 0 matches
+2025/11/16 14:29:16 PUUID 6bA0YNJs_smGeYHJMQAXXqhAcVPRAOzdzGOKva0yQ5stnOvQ90Af2ktjV6e6BSI_aJ4ECj5TBRl0lQ has 0 matches
+2025/11/16 14:29:16 PUUID 78AwblzHHdIOVOkQfPHIaMkBAIOHidsV9enpgY0eUekWQddP2mdb63tgm0Oelj2u2-2tnRGsn2_QFw has 6 matches
+2025/11/16 14:29:17 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:17 PUUID mA3rlr7D8ysbkms2XVOLKOCAMehzgJDoD59hOYc4gr6d09J14oFJib0fJOCHHccHzCYBEM7UscFDYA has 0 matches
+2025/11/16 14:29:17 PUUID YAhHWZAGefq5U3iiwY1iMxWUrVfq0mKJ42jXu_cGiV4UJgetxfK-2pbIWetWuNzjL75i_BbsM5VvBw has 0 matches
+2025/11/16 14:29:17 PUUID qp4GFTcIfuS4ThIfJlGt-FheE2iXOiZAguy8MUpUdLFNhNd-FSqr5cqwxyybz6VPZjg2voersd85xQ has 0 matches
+2025/11/16 14:29:17 PUUID qhuw1nAtq8m-DbT3Wdpu5gPHwqaNkFbgoja_WSylUzHW8HCxYPhPJ85LTczWGmlds6wFdhla3Ul4-w has 0 matches
+2025/11/16 14:29:17 PUUID xGEZdckHRP4AdQW6eob0Nwrq7U7MEsHfMx8409LSu-FAsNpjuqHWA44SygPqiWjKXvwVOMyV711G2g has 0 matches
+2025/11/16 14:29:19 PUUID 3IEEv9LX0Z0895th-gfpQKhpufKWMnGnmh9PZDIiH-fSaLuhwD89Balsc-lmLo2zNrATlsHtZPyA9g has 0 matches
+2025/11/16 14:29:19 PUUID NOiygxoZQCEUJokLVwHr9UK5ZISZTyeZA9AQYkjPWTtrWJSPTsEkC1c6FmlsXNyMHKS2MITcp_loIg has 2 matches
+2025/11/16 14:29:19 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:19 PUUID nvdTveJT-Lkk7bvYqqbwgS9Y6LTJj6eZOhvDGvoceB4zFMCsmwqsTHLRu-DacoJW9Wy9I5-53mxM9A has 0 matches
+2025/11/16 14:29:19 PUUID xX8797bjepVP76WF6OQriqgIiaFvU7NeZQHEkNRQlDLBaI2kJ74Zy1imBg8B6DX1mRA_ulxUJUz2EA has 0 matches
+2025/11/16 14:29:19 PUUID k8abgxZBIKLFPRc4s-grnbZNhirLfWNl6bA4FIiKPbPT8ftV_hpnoKPpWGI5tI9UX6vdx3BGnXroyg has 0 matches
+2025/11/16 14:29:19 PUUID NPqhdkN8cM4SwJLS9FqRJjyt-NhfmOjyVsvwZbsw4OFHP7tmgc6v7YaEd90POpwRAtfLqOaAtc9t_A has 0 matches
+2025/11/16 14:29:19 PUUID 3HAgxoaf3kJrf7qaNQU-d4MF7PZMILlODYbFf1hCyi4bf8P6odkKGMoGXVv65VhAQNkdK1dkBCNdng has 4 matches
+2025/11/16 14:29:19 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:19 PUUID 49DIIUTLea1ni_ujwS-WRTNbZ9ZoG4p-WkIDvQpHYiTxIK6dx8KVLvcZmAF5anTexg_S43yvFfE1UQ has 0 matches
+2025/11/16 14:29:19 PUUID xtZtX9CihlQuPeDx9SwlM78RMQb7YsnA5OXQFoyDwafnZamwYgjmw4FWmlQQIBlOmTd2l2rs_wb6YA has 0 matches
+2025/11/16 14:29:19 PUUID eHGLqHqPSBZJ4Tc8wk3gZVzDMbg0vAW6Vrn_08G7wZG9z2pRKZr9zcHlVcRTYsrx3PARkoeYeh5Qwg has 0 matches
+2025/11/16 14:29:20 PUUID toIpZcMgXwO9dLnDjaLsCoPy-fkzs-jgUMt7hSnIK3IkBNy2DH5Pu-abzCV3b53nkrDQYXjAkqJ48w has 2 matches
+2025/11/16 14:29:20 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:20 PUUID 4a1SCBtXS8wRmMKGbf82E6QB0BPGvJ31PCUyYvjrEcjMD4YloC2tL_8E3yYIt4JNTHGdzOGiTbGC0g has 0 matches
+2025/11/16 14:29:20 PUUID GWuLepNMeNC_Yt9rNtW3o9tuRNpGLX9SPoe_G8k6kbay9bSXo0V94sIwkxacYzFg1sSwlzvOd0PvdA has 0 matches
+2025/11/16 14:29:20 PUUID Mg2yJEhUSyUNKCYTpyRsP9MLoXXwj11x1nowRCfHb6FuzS59AQlSQEwRSeUS1hFfOkJgn4j1nqzleA has 0 matches
+2025/11/16 14:29:20 PUUID tSZfYi0wY2bONNHtmBLnWI7ElvqwKCjf_5-yiirsTPkxnFL7E1sd-Dr2219a_oIeXXHyYeD-bhzTBQ has 0 matches
+2025/11/16 14:29:20 PUUID Bk-vePbPPYfCVnRrwYdbAryhrE63JxiudVJZEGJdorAVDVu3CIVxM8XE0v0i1_kj6oHU1-wR_mTpMg has 0 matches
+2025/11/16 14:29:20 PUUID q4L5xMGzFyriVbIT4L6CGNyWn3QLX9MHhWNKv69a4IJXb25LaHVZJkYLtnQKFdEpsb-7P-gKohlwVA has 0 matches
+2025/11/16 14:29:20 PUUID xCOndDfkSxUIpDY1YA5E3qJPRCEsVD_ijYUbyO-cjNaupP7OELov69M_m_EfeLsj8DOsMhrYYdpK5g has 0 matches
+2025/11/16 14:29:20 PUUID 8-xkkF6ShCKhlIxzO9iMIXysjIVv7A2MpOP8CNsHl7ABV3JAifE7p1SjQmgXlY87YypS3Asy3MMYzA has 0 matches
+2025/11/16 14:29:20 PUUID JiKrcXOLe1CKEZgQRq2UTUFLxYm9HPcUl_YA86dkas197r4UN0P8V57Ki5WA6wdLs8K8j6xFPfK1Cg has 0 matches
+2025/11/16 14:29:22 PUUID aHgbMUUsibFONt7vfcivwpGux7ezFA6d0ZJrgd6pYlS8vrxJr_mY6eqGskOJux7Dk0jWwrFN_AkM7A has 0 matches
+2025/11/16 14:29:22 PUUID QxL0JfxIHDWa2hrh5-wP7OT74QAi2dI-6ACArsENQPjFemqCgdHG6z6RFcmlvGP4znisDGe56xkc6g has 0 matches
+2025/11/16 14:29:22 PUUID XVclxWIhbr4jnoNaIzcbBWtBU61FeEqHTi1tUkkL_mNnN8klQrhKrBGIQFEwxy1Q-J4zpMsEztYbQQ has 0 matches
+2025/11/16 14:29:22 PUUID 861DD9B0mwLaZUhX7Tv1fUKHNp6EvlhljKboCJzrgAiEbaoLQ4lSMyeFoRsXwEvr0sfYCEwIi6MlkQ has 0 matches
+2025/11/16 14:29:22 PUUID t1XbC3nMtLuzQOuZ5FuBgmwQXGSUn9amxqYDzSI28g1RcP_BY4KRn00xtQPCw6S374ygFxp6vnjkYw has 0 matches
+2025/11/16 14:29:22 PUUID Cii7QbPQTOhCOPoti9idER4htJenrRjA_NUU4LBFe6qXslO0M4lt8ydQIU36zy9kRXRgQp0q954u3Q has 0 matches
+2025/11/16 14:29:23 PUUID uvQeytZSpdWbyJPh5mJfXBvUqfHaYdsy4fdDpqh_GuSjy-MkW2wqawPa8bWMima-jaLQuA3BvNIDNQ has 1 matches
+2025/11/16 14:29:23 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:23 PUUID LO7h-pHOEyPYTHziCHLJ0_CMfIX4sLszNgIzEAdBTFAQ6Pw6XlPwL6XyGkRKQhAYyTxsFEbMkfKImQ has 3 matches
+2025/11/16 14:29:23 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:23 PUUID f1B4odw0CMmXugHlCvJ8otWdOGnJ7B0OzMyGRZV1xeSHqVstvQ819PDrBbTP_ysEFsQ04Bdbbe3deg has 0 matches
+2025/11/16 14:29:23 PUUID QKw1K6bxAeUiusYAEu8PFM-xJepRbXGPOa92FbHW4aOdPZd2vAlqBpdKno3pBuPT3kAAkS-khHOwaA has 0 matches
+2025/11/16 14:29:23 PUUID a7pwoeiI7OaAHNqq3tRoB6FPAnttWmr4o_8gDkDEzlNwTydWv2_8u-hEE4lDByfZ0t085EAIKmUxqw has 0 matches
+2025/11/16 14:29:23 PUUID Hh9aKdK6a5pFxI4qPbzjDqmqw3D8xrOpg1HTgf_hvRhBoacRZ6QIF72oSWLDaw_z_vXGJ6WPrwcloA has 0 matches
+2025/11/16 14:29:23 PUUID Mz-lw4aUX8hWZwHh03vJacQ3XRWXHEf-hx-keLHJJ_UWIhAHOKmRUmOPD-4vt77tgoqa25bFAu-c_Q has 0 matches
+2025/11/16 14:29:23 PUUID Ev-QD3UG46bYRhIVEm0mq0XihwtY49Rzm2_3bhNfBWAq8WjVvqqeJNQ1R5vOirxD_5SobqaYJhrQhw has 0 matches
+2025/11/16 14:29:23 PUUID m-cbo7VE_SE1QY1agfj98PqNcq-DIpHIKUVoPaggsv5EOi39J1-IVAOEbbgaBhWKlgsA3VV_Eg0HsA has 0 matches
+2025/11/16 14:29:23 PUUID OsQh_IvWRSXsQVq04Nfm2qwSJTQ1A3bTAzbcZN5f3jqYfi_hcUCjYVd7N1IJBKM_L4BL7mOnE_2uGg has 0 matches
+2025/11/16 14:29:23 PUUID qixCYmui4lA0ebPLfXYAbEWoSYBRi1cCweWLaSCRnzDKlbUeEWaLXKZDKZNeeg6lVOSG5FLJJWKVHQ has 4 matches
+2025/11/16 14:29:24 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:24 PUUID BkdpgOAeX7znER62ssI_UxpFw2ICrDAv-zMxo1pm5aUWyuygb87JY_gAjbSGIjzGJUAkz0D5EQ7mxg has 0 matches
+2025/11/16 14:29:24 PUUID 4es1spokBV8bC07OJtXXPAmW6B7oB0K9X4RiWym-iiOwZiYp0h724ULuEeLudOZFI2HSJNHw3M8Kvw has 0 matches
+2025/11/16 14:29:24 PUUID oydMXtO06T0ErqqI58iLCX4Y9NWdPRVCxaCGjZXCgzCJCUMwR266J5kFny5vC58C5g1obIKcmk9-Xw has 6 matches
+2025/11/16 14:29:24 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:26 PUUID PGIw6cfvidD8YLkelAZFmAqwlqQyR6GSG-lWR3AdCADMcmO__WYOALLqbbK7s78GDBYP5qPq4RO-FA has 0 matches
+2025/11/16 14:29:26 PUUID IIv6dwhdHcsGzByXLUf3akRBUMCz27fSvXEDsyqR-aqOYzf5lxx9zjjedtwdLfvKN6EBqvWyU3YvCA has 0 matches
+2025/11/16 14:29:26 PUUID 4ez1uTnCxjOTLcywVlcYKID-iLZnF9JaygOxZGILxfFNeVpW3lwps8UGgo6KPpZ4u-9RwyoWyPmrmQ has 3 matches
+2025/11/16 14:29:26 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:27 PUUID dc2emMpsMe9OsYwgWDRV6p-__agG2RVEaFsHKUL5KOryBR-LNh7WJyxCu9F5o9J8V7rsuk03QTJY8Q has 5 matches
+2025/11/16 14:29:27 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:27 PUUID P0ndaRmO45PsZ6O745QRbA1iTQIp-ThZxzvVUowBDVpFaHNmDKJWTfktXguEW-55h5FpxqZLOpd-Tg has 0 matches
+2025/11/16 14:29:27 PUUID ySHLZY9Lq6KKGqyJHL1Q7apa-3hVGJnNH5-fgKRyFZx05xoq8vLMjcJYSx2BMY77RJ29jERhce_YMw has 0 matches
+2025/11/16 14:29:27 PUUID 5azHSb-zm0tiuH1n_MsKLCMWL0ACkt-fDz0A2r3eqqRjlsrfiZqbJmiIm_Zhy4JbuPtEdbR94S0FAw has 0 matches
+2025/11/16 14:29:27 PUUID 6ZeMYPmrQMqZD7KdrfjIt5iZC1TwqoZuKgi8hLlxAIV8NnLZsNPuPRH8_8TVroPBFkXvm1IisEAvLw has 4 matches
+2025/11/16 14:29:27 Saved first match data to ../logs/2025-11-16/match.json
+2025/11/16 14:29:27 PUUID aGiUIe4tagPHcD2ZEj9jE6flfo_UuWXt7_FGUktDUHZIWPDeXbcxUorhygbEiw9W_nfwRvxha7wSQA has 0 matches
+2025/11/16 14:29:27 PUUID s64IIPV1UCFR4FqHVo0k00rM5Xvb8fwu0uwpGmamjV7QTrMDVvgfa30CodwrF32oyBTNpaFqDf_CQA has 0 matches
+2025/11/16 14:29:27 PUUID TZNMn91bIIIfzQSJ4jFU0VlfixPQOFIRTv7IEfhHgafxrfGJHW4-zFHaEDnm-eH432GDeyGHGNqjsw has 0 matches
+2025/11/16 14:29:27 PUUID 0dltuuMuY0fsbVlrMZetaH67MZO-62NK2zEsIVZHqWrJ5lv54H61aCGwaoDfyECSZkuadVQFBmfwCA has 0 matches
+2025/11/16 14:30:17 App started
+2025/11/16 14:30:17 Saved player data to ../logs/2025-11-16/players.json
+2025/11/16 14:30:17 Successfully saved JSON response to players.json
+2025/11/16 14:30:17 Starting handleGetMatchesFromPlayers...
+2025/11/16 14:30:17 Loaded 205 players
+2025/11/16 14:30:17 waiting 2 seconds
+2025/11/16 14:30:19 Checking PUUID #0: HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ
+2025/11/16 14:30:20 Saved match list (0 entries) to ../logs/2025-11-16/matchList.json
+2025/11/16 14:30:20 PUUID HMovvTnE5kCQfvkzrHAm8Oo3KbgsWZp0R_Ouz2g2-s7uiNERl0FJ7p6770cZKGrDrIBNiMNsDyPMKQ has no matches. Skipping...
+2025/11/16 14:30:20 Checking PUUID #1: XyqIYoXzbng01WeUpW9Tgh9ECT-MmGsZuAhaEAOaeZJF57-LYrCPA27WotwSfTw2WmJSHFoswhqkLg
+2025/11/16 14:30:20 Saved match list (3 entries) to ../logs/2025-11-16/matchList.json
+2025/11/16 14:30:20 Fetching match EUW1_7605433787
+2025/11/16 14:30:20 Saved match data to ../logs/2025-11-16/match.json
+2025/11/16 14:30:20 Successfully saved JSON response to matches.json
+2025/11/16 14:30:20 App finished
