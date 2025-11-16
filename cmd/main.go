@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	apiKey         = "RGAPI-266be39c-373c-4c2d-bdd8-c3908b7e7c7a"
+	apiKey         = "RGAPI-d7859f0d-11c7-4fa7-b720-909190c75eab"
 	playerBaseURL  = "https://euw1.api.riotgames.com"
 	historyBaseURL = "https://europe.api.riotgames.com"
 )
